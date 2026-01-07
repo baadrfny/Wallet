@@ -8,6 +8,7 @@ class User
     public string $password_hash;
     public string $created_at;
 
+    
     public function __construct($name = '', $email = '', $password_hash = '')
     {
         $this->name = $name;
