@@ -50,6 +50,7 @@ CREATE TABLE expenses (
     FOREIGN KEY (category_id) REFERENCES categories(id)
 );
 
+
 -- AUTOMATIC EXPENSES
 CREATE TABLE automatic_expenses (
     id INT AUTO_INCREMENT PRIMARY KEY,
